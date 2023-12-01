@@ -1,0 +1,148 @@
+body {
+    color: #40514E; 
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+hr {
+    border: dotted #889eaf 6px;
+    width: 2%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 5.635rem;
+    color: #66bfbf;
+    /*100% is equivalent to 16px
+    <em> tag help to make italics
+    1em =16px
+    px->static size while em and % are dynamic size
+    em and % can be inherited from parent as if we make body font size to 2em(or 200%) then h1 font size becomes 7.635 em
+    To remove this feature we use rem called root em
+    Recommendation->use rem(root em)
+    line-height: 2; give space in top and bottom 1->default recommended to give in numberws without unit 
+    */
+    margin: 50px auto 0 auto;
+    /* top right bottom left*/
+    font-family: 'Sacramento', cursive;
+}
+
+.intro {
+    margin: 10px auto 10px auto;
+    width: 30%;
+}
+
+p {
+    line-height: 2;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: #11999e;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.MudassirImage {
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+}
+
+.topcont {
+    margin: 0px;
+    background-color: #e4f9f5;
+    position: relative;
+    padding: 20px;
+    padding-top: 100px;
+
+}
+
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 30px;
+
+}
+
+.bottom-container {
+    background-color: #f1eeee;
+    margin: 50px auto 0px auto;
+    padding: 30px 0px 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    /* clear and float are just opposite of each other 
+    use float iff necessary or wrapping of text to right or left
+    Note: dont use float for positioning instead for positioning use relative, absolute etc.
+    */
+}
+
+.skill_img {
+    width: 25%;
+    height: 25%;
+    margin-right: 30px;
+    float: left;
+
+}
+
+#block {
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -moz-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -ms-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -o-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: linear-gradient(to bottom, #11cdd4, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #89cffa;
+    background-image: -webkit-linear-gradient(top, #89cffa, #3498db);
+    background-image: -moz-linear-gradient(top, #89cffa, #3498db);
+    background-image: -ms-linear-gradient(top, #89cffa, #3498db);
+    background-image: -o-linear-gradient(top, #89cffa, #3498db);
+    background-image: linear-gradient(to bottom, #89cffa, #3498db);
+    text-decoration: none;
+}
+
+.footer-image {
+    width: 2%;
+    height: 2%;
+    background-color: #ffffff;
+}
+.footer-link{
+}
