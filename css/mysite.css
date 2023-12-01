@@ -53,7 +53,7 @@ h3 {
 
 
 
-.MudassirImage {
+.myImage {
     margin-top: 30px;
     border-radius: 50%;
     width: 20%;
@@ -69,6 +69,10 @@ h3 {
 
 }
 
+.dancingarenaclass{
+    color: grey;
+    text-decoration: none;
+}
 
 .bottom-cloud {
     position: absolute;
@@ -145,4 +149,10 @@ h3 {
     background-color: #ffffff;
 }
 .footer-link{
+    color: black;
+    text-decoration: none;
+}
+.bottom-container a:hover{
+    color: gray;
+
 }
